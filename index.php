@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="assets/plugins/iCheck/square/blue.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class=" bg-primary">
+<body class=" bg-primary" style = "background-color : #fafafa">
 	<div class="container">
 		<div class="login-box">
 
@@ -32,14 +32,14 @@
 			</center>
 
 			<center>
-					<img src="../easybuy/assets/image/easybuy admins.png"
+					<img src="assets/image/Logo.svg"
 					style="height: 200px; width: 200px">
 			</center>
 
 			<br>
 
-			<div class="login-box-body">
-				<h4 class="login-box-msg">Login Pengguna</h4>
+			<div class="login-box-body" style = "background-color: #6d8f46; border-radius: 10px;">
+				<h4 class="login-box-msg" style="color:#fff">Login Pengguna</h4>
 
 				<form action="periksa_login.php" method="POST">
 					<div class="form-group has-feedback">
@@ -52,7 +52,7 @@
 					</div>
 					<div class="row">
 						<div class="col-xs-offset-8 col-xs-4">
-							<button type="submit" class="btn btn-primary btn-block btn-flat">Masuk</button>
+							<button type="submit" class="btn btn-primary btn-block btn-flat" style= "background-color: #fff; border-radius: 10px; border-style:none; color:#000">Masuk</button>
 						</div>
 					</div>
 				</form>

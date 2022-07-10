@@ -20,7 +20,7 @@
 
      
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-green">
+        <div class="small-box bg-green" style="border-radius: 10px;">
           <div class="inner">
             <?php 
             $bulan = date('m');
@@ -38,7 +38,7 @@
       </div>
 
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-green">
+        <div class="small-box bg-green" style="border-radius: 10px;">
           <div class="inner">
             <?php 
             $tahun = date('Y');
@@ -56,7 +56,7 @@
       </div>
 
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-orange">
+        <div class="small-box bg-orange" style="border-radius: 10px;">
           <div class="inner">
             <?php 
             $bulan= date('m');
@@ -74,7 +74,7 @@
       </div>
 
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-orange">
+        <div class="small-box bg-orange" style="border-radius: 10px;">
           <div class="inner">
             <?php 
             $tahun = date('Y');
@@ -92,7 +92,7 @@
       </div>
       
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-blue">
+        <div class="small-box bg-blue" style="border-radius: 10px;">
           <div class="inner">
             <?php 
             $tanggal = date('Y-m-d');
@@ -110,7 +110,7 @@
       </div>
 
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-gray-dark">
+        <div class="small-box bg-gray-dark" style="border-radius: 10px;">
           <div class="inner">
             <?php 
             $stok = mysqli_query($koneksi,"SELECT sum(stok_barang) as total_stok FROM barang");
@@ -136,7 +136,7 @@
 
         <div class="nav-tabs-custom">
 
-          <ul class="nav nav-tabs pull-right">
+          <ul class="nav nav-tabs pull-right" style="border-radius: 10px;">
             <!-- <li><a href="#tab2" data-toggle="tab">Pemasukan</a></li> -->
             <li class="active"><a href="#tab1" data-toggle="tab">Pemasukan & Pengeluaran</a></li>
             <li class="pull-left header">Grafik</li>
@@ -172,7 +172,7 @@
 
 
         <!-- Calendar -->
-        <div class="box box-solid bg-green">
+        <div class="box box-solid bg-green" style="border-radius: 10px;">
           <div class="box-header">
             <i class="fa fa-calendar"></i>
             <h3 class="box-title">Kalender</h3>

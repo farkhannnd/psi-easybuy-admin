@@ -63,9 +63,9 @@
                 $profil = mysqli_fetch_assoc($profil);
                 if($profil['user_foto'] == ""){ 
                   ?>
-                  <img src="../gambar/sistem/user.png" class="user-image">
+                  <img src="/assets/foto/adminlogo.png" class="user-image">
                 <?php }else{ ?>
-                  <img src="../gambar/user/<?php echo $profil['user_foto'] ?>" class="user-image">
+                  <img src="/assets/foto/<?php echo $profil['user_foto'] ?>" class="user-image">
                 <?php } ?>
                 <span class="hidden-xs"><?php echo $_SESSION['nama']; ?> - <?php echo $_SESSION['level']; ?></span>
               </a>

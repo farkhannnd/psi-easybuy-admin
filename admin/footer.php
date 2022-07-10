@@ -3,7 +3,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 1.0.0
     </div>
-    <strong>Copyright &copy;2021</strong> - 007 SailorMoon
+    <strong>Copyright &copy;2022</strong> - 007 SailorMoon
 
   
 </div>
